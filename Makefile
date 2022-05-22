@@ -13,6 +13,6 @@ coverage:
 	go tool cover -func cover.out
 
 up:
-	docker-compose build app
-	docker-compose up -d app
+	docker compose build app
+	docker compose up -d app
 	docker image prune --force
